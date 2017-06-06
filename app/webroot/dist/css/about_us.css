@@ -1,0 +1,99 @@
+.nav-tabs>li>a{
+    border-radius: 0px;
+    padding: 12px 15px;
+    font-weight: bold;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    background-color: #316fa5;
+    color: white;
+    margin-bottom: 5%;
+    transition: .3s ease background-color;
+    margin-right:0px;
+cursor:pointer;
+min-width:195px;
+text-align:center;
+       font-family: "Lato",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.nav-tabs{
+margin-left:19%;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+color:#316fa5;
+
+}
+
+.nav-tabs>li>a:hover {
+background-color:#eee;
+color:#316fa5;
+}
+
+@media only screen and (max-width:940px){
+.nav-tabs{
+margin-left:14%;
+}
+}
+
+@media only screen and (max-width:750px){
+.nav-tabs{
+margin-left:12%;
+}
+}
+
+@media only screen and (max-width:650px){
+.nav-tabs{
+margin-left:9%;
+}
+}
+@media only screen and (max-width:505px){
+.nav-tabs{margin-left:0%}
+#li_tab1,#li_tab2{
+width:50%;
+text-align:center
+}
+.nav-tabs>li>a{min-width:0px}
+#li_tab3{width:100%;text-align:center}
+.nav-tabs>li>a {
+    padding: 12px 8px;
+    font-weight:100;}
+}
+.block_sand p{font-size:18px !Important}
+.tab-content>.tab-pane{padding-top:25px;padding-bottom:25px;}
+.team_block {
+    border: 0px solid grey;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    margin-top: 3%;
+    cursor:pointer
+}
+.callout {
+    border-radius: 3px;
+    margin: 10% 0 20px 0;
+    padding: 15px 30px 15px 15px;
+    background: #eee;
+    border-left: 5px solid grey;
+}
+.callout h4 {
+    margin-top: 0;
+    font-weight: 600;
+}
+.callout p:last-child {
+    margin-bottom: 0;
+    text-align:justify;
+}
+.active_team img{
+    -webkit-filter: grayscale(0%) !important;
+    filter: grayscale(0%) !important;
+}
+.active_team>.team_social{
+    background-color: rgba(204,204,204,0.5);
+}
+#rohit,#gaurav,#amrit,#tushar{display:none;}
+#vmva span li{display:inline;    
+	color:black;
+    line-height: 23px;
+    font-size: 18px !important;
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    text-align: justify;
+    list-style-type:circle;
+}
+#vmva span{display:inline}

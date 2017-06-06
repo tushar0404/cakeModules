@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteRule ^$ app/webroot/ [L]
+	RewriteRule (.*) app/webroot/$1 [L]
+        RewriteRule %{http_host} ^cloudirec.com [NC]
+        RewriteRule ^(.*)$ http://www.cloudirec.com/$1/ [r=301,nc] 
+    
+</IfModule>
